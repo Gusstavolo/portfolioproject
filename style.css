@@ -1,8 +1,11 @@
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 body{
     display: flex;
     justify-content: center;
-    bottom: 0px;
+    
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.34) 100%), url('./image/zyro-image.png'), lightgray 50% / cover no-repeat;
     background-size: 100% ;
@@ -12,15 +15,19 @@ body{
 main{
     display: flex;
     
-    margin-top: 10rem;
     
     flex-direction: column;
     
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
+    
 
 
+}
+
+
+
+.menu_me{
+    display: flex;
+    position: absolute;
 }
 
 .menu_info{
@@ -35,6 +42,7 @@ main{
 
     width: 173px;
     height: 173px;
+    margin-top: 150px;
     flex-shrink: 0;
     border-radius: 85px;
     border: 1px solid #f3f3f3;
@@ -46,43 +54,36 @@ main{
 
 .menu_icons{
     display: flex;
+    position: absolute;
     gap: 4rem;
     
-    margin-top: 200px;
-    position: absolute;
-   
+    margin-top: 350px;
 
-}
-.menu_me{
-
-    display: flex;
-   
-    
-    
-    position: absolute;
 }
 
 
 .svg_photo_likedin{
-    width: 97px;
-    height: 97px;
+    display: flexbox;
+    width: 130px;
+    height: 130px;
     flex-shrink: 0;
     border-radius: 100px;
     border: 6px solid #F3F3F3;
     background: url('./image/likedinicon.png'), lightgray 50% / cover no-repeat;
-    background-size: 6.4rem;
+    background-size: 100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 
 .svg_photo_github {
-    width: 97px;
-    height: 97px;
+    display: flexbox;
+    width: 130px;
+    height: 130px;
     flex-shrink: 0;
     border-radius: 100px;
     border: 6px solid #F3F3F3;
     background: url('./image/githubicon.png'), lightgray 50% / cover no-repeat;
-    background-size: 6.2rem;
+    background-size: 105%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   
 
@@ -99,6 +100,8 @@ main{
     stroke-width: 13px;
     stroke: rgba(53, 0, 0, 0.59);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(./image/ArrowDaw.png) no-repeat;
+    background-size: 50px;
 }
 .background_apple_image {
     width: 150px;
@@ -113,3 +116,53 @@ main{
 
 }
 
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+  
+    .menu_me{
+        margin-top: 14rem;
+
+
+    }
+    body {
+
+        background-size: 70rem
+
+    }
+
+    .menu_icons{
+        gap: 50px;
+        margin-top: 440px;
+        
+    }
+    .svg_photo_likedin{
+        width: 120px;
+        height: 120px;
+        
+    }
+
+
+    .svg_photo_github{
+        width: 120px;
+        height: 120px;
+        
+    }
+    
+    .background_apple_arrow{
+        width: 10px 10px;
+    }
+                 
+    .background_apple_image{
+        width: 9px 10px;
+    }
+
+    
+
+}

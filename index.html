@@ -5,37 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Port</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleanim.css">
-    
+    <link rel="stylesheet" href="./styles/styleanim.css">
+    <link rel="stylesheet" href="./styles/stylesection2.css">
+    <link rel="stylesheet" href="./styles/styleoverlayer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript.js" defer></script>
+
 </head>
 <body>
-   
+    <div id="overlay" onclick="off()">
+        
+        
+        <div class="box_content_overlay">   
+            <img src="./image/me.jpeg" class="overlay_image_me">
+       </div>
+    
+    </div>
 
     <main>
       
 
 
         <section class="menu_info">
+           
+            
+                
+
                 <div class="menu_me">
+                    <svg id="overleyer" onclick="on()" class="svg_photo"></svg>
                     
-                    <svg class="svg_photo"></svg>
                 </div>
                 
 
                 <div class="menu_icons">
-
-                 <svg class="svg_photo_likedin"></svg>
-                 <svg class="svg_photo_github"></svg>
-                 <svg class="svg_photo_likedin"></svg>
+                    <a class="svg_photo_likedin" href="https://www.linkedin.com/in/gustavo-oliveira-341b6a28a/"></a>
+                    <a class="svg_photo_github" href="https://github.com/Gusstavolo"></a>
+                 
+                    
+                    
+                    
 
                 </div>
            
             <div class="buttonIcons">
-                <img class="background_apple_arrow" src="./image/ArrowDaw.png" alt="">
+                <a href="#section2" class="background_apple_arrow"></a>
                 <img class="background_apple_image" src="./image/appledown.png" alt="">
             </div>
+
+            <article>
+                <div class="main" id="section2">
+        
+                    <h1>PROJETOS</h1>
+        
+                   
+            
+            
+            
+                </div>
+            </article>
         </section>
+       
+        
+        
       
     </main>
+    
+    
 </body>
 </html>

@@ -1,0 +1,49 @@
+@keyframes animOverlay {
+  from{
+    
+    opacity: 0%;
+    top: 0.3rem;
+    position: relative;
+  }
+  to{
+    opacity: 100%;
+    top: 0px;
+    position: relative;
+  }
+
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.box_content_overlay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: animOverlay;
+    animation-duration: 0.5s;
+    animation-timing-function: linear
+  }
+
+ 
+  .overlay_image_me {
+
+    width: 15rem;
+    height: 16rem;
+    border-radius: 60%;
+
+  }

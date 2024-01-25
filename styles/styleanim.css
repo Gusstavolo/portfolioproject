@@ -24,11 +24,13 @@
 
   .svg_photo {
     transition: width 1s, height 1s;
+  
     
   }
   .svg_photo:hover {
     width: 183px;
     height: 183px;
+  
   }
   
 .svg_photo_github{
@@ -37,9 +39,9 @@
 }
 
 .svg_photo_github:hover {
-    width: 101px;
-    height: 101px;
-    background-size: 6.8rem;
+    width: 136px;
+    height: 136px;
+    background-size: 105%;
   }
 
 
@@ -47,10 +49,17 @@
     transition: width 1s, height 0.5s,background-size 0.5s;
 
 }
+
+
+
+
+
+
 .svg_photo_likedin:hover {
-    width: 101px;
-    height: 101px;
-    background-size: 6.8rem;
+    display: flex;
+    width: 136px;
+    height: 136px;
+    background-size: 100%;
   }
   
 
