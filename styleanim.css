@@ -1,0 +1,56 @@
+/* The animation code */
+@keyframes seta {
+    from{top: 0px;
+
+    }
+    to{
+        top: 10px;
+    }
+
+}
+
+.background_apple_arrow {
+    animation-name: seta;
+    animation-direction: alternate;
+    animation-duration: 1s;  
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+  .svg_photo {
+    transition: width 1s, height 1s;
+    
+  }
+  .svg_photo:hover {
+    width: 183px;
+    height: 183px;
+  }
+  
+.svg_photo_github{
+    transition: width 1s, height 0.5s,background-size 0.5s;
+
+}
+
+.svg_photo_github:hover {
+    width: 101px;
+    height: 101px;
+    background-size: 6.8rem;
+  }
+
+
+  .svg_photo_likedin{
+    transition: width 1s, height 0.5s,background-size 0.5s;
+
+}
+.svg_photo_likedin:hover {
+    width: 101px;
+    height: 101px;
+    background-size: 6.8rem;
+  }
+  
+

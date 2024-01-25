@@ -1,23 +1,115 @@
 
 body{
     display: flex;
-    
-   
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
+    bottom: 0px;
+
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.34) 100%), url('./image/zyro-image.png'), lightgray 50% / cover no-repeat;
     background-size: 100% ;
-}
-
-
-
-.background_apple{
-    display: flex
-
-
- 
     
+}
+
+main{
+    display: flex;
+    
+    margin-top: 10rem;
+    
+    flex-direction: column;
+    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+
 
 }
+
+.menu_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.svg_photo{
+
+    width: 173px;
+    height: 173px;
+    flex-shrink: 0;
+    border-radius: 85px;
+    border: 1px solid #f3f3f3;
+    background: url('./image/me.jpeg'), lightgray 50% / cover no-repeat;
+    background-size: 12rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.menu_icons{
+    display: flex;
+    gap: 4rem;
+    
+    margin-top: 200px;
+    position: absolute;
+   
+
+}
+.menu_me{
+
+    display: flex;
+   
+    
+    
+    position: absolute;
+}
+
+
+.svg_photo_likedin{
+    width: 97px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 6px solid #F3F3F3;
+    background: url('./image/likedinicon.png'), lightgray 50% / cover no-repeat;
+    background-size: 6.4rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.svg_photo_github {
+    width: 97px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 6px solid #F3F3F3;
+    background: url('./image/githubicon.png'), lightgray 50% / cover no-repeat;
+    background-size: 6.2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+
+}
+
+
+
+
+.background_apple_arrow{
+    width: 50px;
+    position: absolute;
+    flex-shrink: 0;
+    bottom: 0px;
+    stroke-width: 13px;
+    stroke: rgba(53, 0, 0, 0.59);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.background_apple_image {
+    width: 150px;
+    
+}
+.buttonIcons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+
+}
+
