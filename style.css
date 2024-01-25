@@ -28,6 +28,8 @@ main{
 .menu_me{
     display: flex;
     position: absolute;
+    margin-top: 0px;
+    
 }
 
 .menu_info{
@@ -127,8 +129,8 @@ main{
 @media (max-width: 1200px){
   
     .menu_me{
-        margin-top: 6rem;
-
+        
+        margin-top: 100px;
 
     }
     body {
@@ -139,7 +141,7 @@ main{
 
     .menu_icons{
         gap: 50px;
-        margin-top: 440px;
+        margin-top: 480px;
         
     }
     .svg_photo_likedin{
