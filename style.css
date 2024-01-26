@@ -6,21 +6,18 @@ body{
     display: flex;
     justify-content: center;
     
-
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.34) 100%), url('./image/zyro-image.png'), lightgray 50% / cover no-repeat;
     background-size: 100% ;
+
     
 }
+
 
 main{
     display: flex;
     
     
     flex-direction: column;
-    
-    
-
-
 }
 
 
@@ -106,7 +103,10 @@ main{
     background-size: 50px;
 }
 .background_apple_image {
+    display: flex;
+   
     width: 150px;
+    filter: blur(0.8px);
     
 }
 .buttonIcons {
